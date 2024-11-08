@@ -1,0 +1,22 @@
+
+<div id="side-bar" class="sidebar p-3 bg-black ">
+
+  <div class="sidebar-header d-flex justify-content-center ">
+    <h3>GiftApp</h3>
+  </div>
+  <hr class="text-white">
+
+  <div class=" d-flex  flex-column justify-content-center mt-3 p-4">
+    
+    <button class="btn btn-light mb-3"
+    *ngFor="let gif of listHistory()"
+    (click)=" ReSearch(gif)"
+    >
+      {{ gif | titlecase }}
+    </button>
+
+
+
+  </div>
+
+</div>

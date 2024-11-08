@@ -1,0 +1,18 @@
+<div class="d-flex  justify-content-center">
+
+  <img
+    [src]="url"
+    class="card-img-top rounded-top animate__animated animate__fadeIn "
+    alt="alt"
+    (load)="isLoad()"
+    [ngStyle]="{ 'display': isLoaded ? 'block' : 'none' }"
+
+    >
+
+  <img *ngIf="!isLoaded" width="50" height="50"
+  src="/lazy-img/loader.svg" alt="alt" class="mt-3">
+
+
+
+
+</div>

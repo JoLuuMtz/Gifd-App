@@ -1,0 +1,12 @@
+<!-- <img [src]="gifs.images.original.url" alt="gif.title" class="card-img-top "> -->
+
+<shared-lazy-image [url]="gifs.images.original.url" class="  bd-dark  card-img-top"
+[alt]="gifs.title || ' Dont alt ' ">
+
+</shared-lazy-image>
+
+<div class="card mb-2 bg-dark text-center  text-white ">
+  <p class="card-text m-2">
+    {{ gifs.title || 'it dont has title' }}
+  </p>
+</div>

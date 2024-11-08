@@ -1,0 +1,28 @@
+#side-bar {
+
+  top: 65px;
+  width: 250px;
+  height: 90vh;
+  color: #fff;
+  padding-top: 20px;
+  overflow-y: auto ;
+  border-right: solid 2px #fff;
+
+/* scroll bar invisible */
+    scrollbar-width: none; /* Firefox */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
