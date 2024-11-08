@@ -5,7 +5,8 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { LazyImageComponent } from './lazy-imgage/lazy-imgage.component';
+import { LazyImageComponent } from './components/lazy-imgage/lazy-imgage.component';
+
 
 
 
